@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+em{
+    font-size: x-small;
+}
+:root{
+    --mcolor:#ff4c68;
+    --color:#ffff;
+    --pcolor:#ff2b4b;
+}
+body {
+    font-family: 'Alkatra';
+}
+#title{
+    background-color:#ff4c68 ;
+    color: #ffff;
+}
+.container-sm{
+    padding: 3% 13%;
+    background-color:#ff4c68 ;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem; 
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Alkatra';
+    line-height: 2;
+    font-size: 2rem;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* navigation Bar */
+
+#navv{
+    padding:0 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    
+}
+#navv ul{
+    display: flex;
+}
+.navbar-brand {
+    font-family:"Ubuntu";
+    font-size: 2rem;
+    font-weight:900;
+    text-decoration: none;
+    color: #ffff;
+}
+.nav-item{
+    padding: 0 18px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* buttons */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    margin: 5% 3% 5% 0;
+    background-color: var(--color);
+    color: var(--mcolor);
+    border:none;
+    cursor: pointer;
+    transition:.3s ease all;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color:var(--pcolor) ;
+    color: var(--color);
+}
+.btn2 {
+    margin: 5% 3% 5% 0;
+    background-color: var(--pcolor) ;
+    color: var(--color);
+    border:none;
+    cursor: pointer;
+    transition:.3s ease all;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn2:hover{
+    background-color: var(--color);
+    color: var(--mcolor);
+}
+.title-img {
+    width: 100% ;
+    transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+    padding: 10% 13%;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color);
+    align-items: center;
+    line-height: 1rem;
+    gap:2rem;
+
+}
+#features p{
+    color: #8f8f8f;
+}
+#features h3{
+    color: #343131;
+    padding: 1rem;
+}
+.icon {
+    margin-bottom: 2rem;
+    color: var(--pcolor)  ;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: var(--pcolor) ;
+    text-align: center;
+    padding: 7% 15%;
+    color: #ffff;
+    font-weight: 900;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+    gap: 1rem;
+    
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    background-color: var(--color);
+    color: var(--mcolor);
+    text-align: center;
+    padding: 4rem;
+}
+.price-text{
+    padding-bottom: 2rem;
+    color: var(--pcolor);
+}
+.price-text h2{
+    font-size: 2em;
+}
+.pricing{
+    background-color: var(--color);
+    color: var(--mcolor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: auto;
+    
+}
+.type{
+    flex: 1;
+    height: 55vh;
+    max-width: 400px;
+    min-width: 300px;
+    /* min-height: 30vh; */
+    padding: 30px 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 10px ;
+    box-shadow: #ff2b4b ;
+    display: grid;
+}
+.type button{
+    padding: 10px;
+    background-color: var(--pcolor);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 2rem;
+
+}
+.type button:hover{
+    background-color: var(--color);
+    color: #ff2b4b;
+    cursor: pointer;
+}
+
+
+#cta{
+
+    display: flex;
+    text-align: center;
+    background-color: var(--mcolor);
+    color: var(--color);
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+}
+.cta h3{
+    display: block;
+}
+footer{
+    height: 10vh;
+    background-color: var(--color);
+    color: #ff2b4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
